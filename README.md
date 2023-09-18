@@ -1,1 +1,3 @@
-# Machine-Learning-Recipes
+# Machine Learning Recipes
+
+This repository contains codes for the various Machine Learning algorithms, that are discussed in the medium articles. The dataset used in the various models can be found in the [~/dataset](https://github.com/thisisashwinraj/Machine-Learning-Recipes/tree/master/datasets) dir. The various ML models are built on Google Colab Notebook, since most of the required packages are pre-installed. The notebooks can be run locally, or on other platforms by downloading notebooks from this repository. This repository was started in 2023, under the [MIT License](https://github.com/thisisashwinraj/Machine-Learning-Recipes/blob/master/LICENSE).

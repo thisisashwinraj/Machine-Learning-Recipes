@@ -1,0 +1,4 @@
+/* Hide the Plotly expander button */
+.stPlotly {
+    display: none;
+}
