@@ -81,7 +81,7 @@ if selected_algorithm == 'Simple Linear Regression':
     article_link, source_code_link = st.columns([1,1.13])
 
     link_to_article = 'https://towardsdatascience.com/linear-regression-5100fe32993a'
-    link_to_source_code = 'https://github.com/thisisashwinraj/Machine-Learning-Recipes/tree/master/regression/linear_regression.py'
+    link_to_source_code = 'https://github.com/thisisashwinraj/Machine-Learning-Recipes/blob/main/regression/linear_regression.py'
     
     with article_link:
         st.markdown("<b> :page_facing_up: Medium Blog:</b> <a href=" + link_to_article + ">Simple Linear Regression</a>", unsafe_allow_html=True)
@@ -111,14 +111,14 @@ if selected_algorithm == 'Simple Linear Regression':
 
     with model_inferencing:
         infer_simple_linear_regression_model_button = st.button("Predict Diamond's Price")
-        
+
     with model_recalibration:
         recalibrate_simple_linear_regression_model_button = st.button("Recalibrate")
 
     if infer_simple_linear_regression_model_button:
         predicted_price = linear_regression_model.inference_from_model(user_input)
         linear_regression_model_prediction = st.success(f":gem: Predicted Price for a {user_input:.2f} carat diamond is ${predicted_price.item():.2f}")
-    
+
     if recalibrate_simple_linear_regression_model_button:
         linear_regression_model_recalibration = st.spinner("Recalibrating the Simple Linear Regression Model")
 
